@@ -1,0 +1,71 @@
+Assignment-1:
+
+
+1) Write a program to generate N random integers, where the number N should be accepted from the user through the keyboard. You will need the "random" module for this. Can you find the suitable function
+inside this module that can serve your purpose?
+
+2) Create a program which defines a list [1,2,3,4,5]. And then it should accept a number from the user and check if it inside the list. If in the list it should display "Yes, found it!" otherwise it should display "Sorry, could not find that." You should use the "in" keyword for this exercise. Try typing "a" in "Jack" and see the output. This should help you understand what the "in" keyword does.
+
+3) Accept from the user, names of 5 students and their marks. Make a Python dictionary of the form { "Chris" : 55, ... } and print the dictionary.
+
+4) Define a function which accepts a number from the user and checks if the number is prime or not. It should return True if prime else return a False.
+
+5) Write a program which accepts a name from a user and prints the same name with all letters capitalized. Find the correct string method
+for the same.
+
+6) Define a function is_palindrome() that recognizes palindromes (i.e. words that look the same written backwards). For example, is_palindrome("radar") should return True.
+
+7) Write a program to print the following:
+
+1
+22
+333
+4444
+55555
+
+8) Write a program to print all even numbers from 0 to 100. Write a version to print odd. Use your previously defined function to find prime numbers and print them.
+
+9) Write a program to accept numbers through the keyboard and return the mean, median and standard deviation of those numbers. These can be computed using "statistics" module in the Python Standard
+Library. There should be no limit on how many numbers the user can provide. Users should be able to quit whenever they want.
+
+10) Write a program which takes an arbitraily long list containing numbers and returns mean, median and standard deviation. You are not allowed to use existing Python modules this time, define your own
+functions to do the job. Save this program as "my_module.py". Now redo the previous problem by importing "my_module".
+
+11) Write a program that accepts a string from the user and checks if it contains a space or special symbols such as such as $,%,^,&,*,(,).
+
+12) Read a sentence from the user and split it into words and print one word on a line.
+
+13) You are given an example text file "simple.txt". Read lines from the given text file line by line in a loop and print it. Find out which lines contain numbers. 
+
+14) Read line by line from given "multicolumn.txt" file, and then split them into a list and print the first word and total number of words of each line. Write this output into another text file.
+
+15) You are given a "table.txt" file which contains a table of the
+form:
+
+a,b
+1,2
+3,4
+5,5
+4,3
+
+Find the sum and product of row elements in a and b and create a text file contaning following output table:
+
+a,b,a+b,ab
+1,2,3,2
+3,4,7,12
+5,5,10,25
+4,3,7,12	
+
+Save this file as "output_table.txt". Now print only the diagonal numbers (ie. 1,4,10, 12) elements and their sum from this file. Create a new text file in the same format which contains all rows of this
+"table" where ab is less than 25.
+
+16) Write a program which accepts two command line arguments and returns their sum.
+
+17) Write a program to accept as a command line argument the temperature in Celsius and print the Fahrenheit equivalent of the same.
+
+18) Write a program which accepts "output_table.txt" from the command line and finds average of all numbers in that table.
+
+
+
+
+
